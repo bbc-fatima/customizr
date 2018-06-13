@@ -9,7 +9,7 @@
   "scripts": {
     "pretest": "node test/pretest.js",
     "test": "node test/runner.js",
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node --harmony scripts/postinstall.js"
   },
   "repository": {
     "type": "git",
